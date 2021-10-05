@@ -68,6 +68,7 @@ Alternatively you can do the following:
       `git clone`
 * Create a discord bot [here](https://discord.com/developers/applications)
 * Get your bot token
+* When generating the invite url for the bot make sure the applications.commands option was included
 * Invite your bot on servers using the following invite:
   https://discordapp.com/oauth2/authorize?&client_id=YOUR_APPLICATION_ID_HERE&scope=bot&permissions=8 (
   Replace `YOUR_APPLICATION_ID_HERE` with the application ID)

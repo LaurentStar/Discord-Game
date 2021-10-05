@@ -28,7 +28,8 @@ class Fun(commands.Cog, name="fun"):
 
     @cog_ext.cog_slash(
         name="randomfact",
-        description="Get a random fact."
+        description="Get a random fact.",
+        guild_ids=[856227000259575819]
     )
     async def randomfact(self, context: SlashContext):
         """

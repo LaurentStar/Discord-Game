@@ -9,7 +9,7 @@ Version: 3.0
 import json
 import os
 import sys
-
+ 
 import aiohttp
 import discord
 from discord.ext import commands
